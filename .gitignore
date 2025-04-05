@@ -1,24 +1,90 @@
-# Compiled class file
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Compiled files and packages
+/bin/
+/build/
+/out/
+/target/
+
+# Logs
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code (in case someone uses it)
+.vscode/
+
+# Maven
+.mvn/
+!**/src/main/**/maven-wrapper.jar
+!**/src/main/**/maven-wrapper.properties
+target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot specific
+spring.log
+
+# Environment files
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Generated files
+generated/
+gen/
+*.generated.*
+*.g.*
+
+# Coverage and reports
+jacoco.exec
+*.ec
+*.exec
+/test-output/
+coverage/
+*.coverage
+*.lcov
+
+# Cache
+.cache/
+*.cache
+**/.gradle/
+
+# Other unversioned things
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+*.log.*
+*.pid
+
+# JetBrains Rider
+*.sln
+*.user
+
+# Misc
+node_modules/
+npm-debug.log
+yarn-error.log
